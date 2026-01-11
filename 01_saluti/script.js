@@ -13,8 +13,6 @@ function helloUser(user) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-const saluto = helloUser(userName);
+alert(helloUser(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
-
-alert(saluto);
