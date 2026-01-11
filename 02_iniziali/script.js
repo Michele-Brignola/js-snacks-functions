@@ -5,13 +5,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 /**
  * @param {string[]} names - Array di nomi
- * @returns {string[]} Array di stringhe contenente l'iniziale di ogni nome
+ * @returns {string[]} - Array di stringhe contenente l'iniziale di ogni nome
  */
 function firstLetterArray(names) {
   const firstLetter = []
   for (let i = 0; i < names.length; i++) {
-    const iniz = names[i].slice(0, 1)
-    firstLetter.push(iniz)
+    firstLetter.push('"' + names[i].slice(0, 1) + '" ')
   }
   return firstLetter;
 }

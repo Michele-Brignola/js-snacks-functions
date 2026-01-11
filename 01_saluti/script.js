@@ -5,7 +5,7 @@ const userName = "Mario";
 // Dichiara la funzione qui.
 /**
  * @param {string} user
- * @returns {string} Stringa con il saluto
+ * @returns {string} - Stringa con il saluto
  **/
 function helloUser(user) {
   return "Ciao " + user;
